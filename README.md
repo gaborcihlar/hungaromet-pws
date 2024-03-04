@@ -48,17 +48,15 @@ python -m pip install arrow
 
 [Notepad++](https://notepad-plus-plus.org/downloads/v8.6.4/)
 
-<p align="left">Az alábbi részekre nagyon figyeljünk:</p>
+<p align="left">Az alábbi paraméterek beállításaira nagyon figyeljünk! A 192.168.0.111-es IP cím is eltérhet:</p>
 
 ```bash
 pws = ""
-# az idézőjelek közé írd be a MET-ÉSZ Beállítások alatt található PWS azonosítót
 jelszo = ""
-# az idézőjelek közé írd be a MET-ÉSZ jelszavad
 tszfm = 123
-# írd be az egyenlőségjel után 123 helyére a tengerszint feletti magasságot, ahol a műszered található
 kuldes = 300   
-# írd be másodperccel számolva, hogy milyen gyakran szeretnél adatot küldeni (javasolt 300 az 5 perchez, vagy 600 a 10 perchez)
+szenzor = requests.get("http://192.168.0.111/sensors.json")
+szelmero = requests.get("http://192.168.0.111/wind.json")
 ```
 
 <p align="left">Paranccsorban lépjünk abba a mappába, ahol a pws.py található, majd indítsuk el a programot:</p>
