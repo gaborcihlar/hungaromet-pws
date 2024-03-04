@@ -59,11 +59,13 @@ szenzor = requests.get("http://192.168.0.111/sensors.json")
 szelmero = requests.get("http://192.168.0.111/wind.json")
 ```
 
-<p align="left">Paranccsorban lépjünk abba a mappába, ahol a pws.py található, majd indítsuk el a programot:</p>
+<p align="left">Paranccsorban lépjünk abba a mappába, ahol a pws.py fájl található:</p>
 
 ```bash
 cd A:\letöltési\mappa\helye
 ```
+
+<p align="left">Indítsuk el a programot:</p>
 
 ```bash
 python pws.py
