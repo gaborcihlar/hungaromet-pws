@@ -36,8 +36,6 @@ py -m pip install --upgrade pip
 
 ```bash
 py -m pip install requests
-py -m pip install math
-py -m pip install time
 py -m pip install schedule
 py -m pip install arrow
 ```
