@@ -2,7 +2,7 @@
 
 ###
 
-<h3 align="left">A HungaroMet MET-ÉSZ oldalán tehetjük közzé az Időképes IP modul adatait.</h3>
+<h3 align="left">A HungaroMet MET-ÉSZ oldalán tehetjük közzé a régebbi Időképes IP modul adatait. Újabb verzióból való küldés még fejlesztés alatt áll!</h3>
 
 ###
 
